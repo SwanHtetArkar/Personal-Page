@@ -1,0 +1,24 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+.outer{
+	width: 18%;
+	height: 1000px;
+	position: absolute;
+	background: url("../images/wooden2.jpg");
+}
+.inner{
+	width: 82%;
+	height: 1000px;
+	background-image: url(../images/wooden1.jpg);
+	background-size: contain;
+	margin-left: 18%;
+	position: absolute;
+}
+.sideborder{
+	width: 20px;
+	height: 1000px;
+	background: url(../images/wooden3.jpg);
+}

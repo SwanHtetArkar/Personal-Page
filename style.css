@@ -1,0 +1,493 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #505050;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #242424;
+}
+.bg-deepblue{
+	background: #002855;
+}
+.bg-blue{
+	background: #0353a4;
+}
+.bg-lightblue{
+	background: #0466c8;
+}
+.font-fjalla{
+	font-family: 'Fjalla One', sans-serif;
+}
+.font-Libre{
+	font-family: 'Libre Baskerville', serif;
+}
+.font-lobster{
+	font-family: 'Lobster', cursive;
+}
+.font-oleo{
+	font-family: 'Oleo Script', cursive;
+}
+.font-jp{
+	font-family: 'Sawarabi Mincho', sans-serif;
+}
+.font-size-18{
+	font-size: 18px;
+}
+.active{
+	color: #002855 !important;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+/*index file*/
+	#index hr{
+		border: 3px #002855 solid;
+		margin-left: 90px;
+		margin-right: 90px;
+		border-radius: 10px;
+
+	}
+	#index{
+		background: #0466c8;
+	}
+	/*navbar section*/
+	.navbar-brand img{
+		height: 40px;
+	}
+	.navbar-nav .nav-item a{
+		color: #CACACA;
+	}
+	.navbar-nav .nav-item a:hover{
+		font-size: 1.1em;
+		transition: .8s ease;
+	}
+	 
+	/*slidebar section*/
+	#slide-bar{
+		box-shadow: 4px 4px 4px #001233;
+	}
+	/*favourite style section*/
+	#fav-style .col-md-4{
+		overflow: hidden;
+	}
+	#fav-style img:hover{
+		transform: scale(1.2);
+		transition: transform 1.3s ease;
+	}
+	#fav-style h5,
+	#fav-anime h5,
+	#best-photo h5,
+	#similar-prd h5{
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+	}
+	#fav-style h5::after,
+	#fav-anime h5::after,
+	#best-photo h5::after,
+	#similar-prd h5::after{
+		content: "";
+		border-top: 40px solid #002855;
+		border-right: 40px solid transparent;
+		position: absolute;
+		margin-left: 46px;
+	}
+	#fav-style img{
+		border-radius: 10px;
+		box-shadow: 5px 5px 5px  #002855;
+	}
+	#fav-style .btn,
+	#fav-anime .btn,
+	#best-photo  .btn{
+		margin-left: 82%;
+		box-shadow: 5px 5px 5px  #002855;
+	}
+	#fav-style .btn:hover,
+	#fav-anime .btn:hover,
+	#best-photo .btn:hover{
+		background: #0353a4;
+	}
+
+	/*favourite anime section*/
+	#fav-anime h5::after{
+		margin-left: 44.1px;
+	}
+	#fav-anime .card-footer{
+		text-align: center;
+		background: inherit;
+		color: inherit;
+	}
+	#fav-anime .col-md-3{
+		margin-top: 30px;
+	}
+	#fav-anime .card{
+		background: #002855;
+		color: #fff;
+		box-shadow: 5px 5px 5px  #0353a4;
+	}
+	#fav-anime .card img{
+		height: 380px;
+	}
+	#fav-anime .card:hover{
+		background: #0353a4;
+		color: #fff;
+		box-shadow: 5px 5px 5px  #002855;
+	}
+
+/*anime list file*/
+	#AnimeList{
+		background: #118ab2;
+	}
+	#anime-list .container{
+		margin-left: 88px;
+		margin-right: 0px;
+	}
+	#anime-list .genre{
+		width: 265px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 15px 15px 0px 0px;
+	}
+	#anime-list .genre-section{
+		border-radius: 20px 20px 20px 20px;
+		border:  3px #002855 solid;
+		padding: 0px;
+		margin-top: -10px;
+		height: 620px;
+		width: 270px !important;
+		position: absolute;	
+	}
+	#anime-list .genre-section a{
+		color: #fff;
+	}
+	#anime-list .genre-section a:hover{
+		color: #fff;
+	}
+
+
+	#anime-list h5{
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+	}
+	#anime-list h5::after{
+		content: "";
+		border-top: 40px solid #002855;
+		border-right: 40px solid transparent;
+		position: absolute;
+		margin-left: 54px;
+	}
+	#anime-list .card-footer{
+		text-align: center;
+		background: inherit;
+		color: inherit;
+		height: 73px;
+		overflow: hidden;
+	}
+	#anime-list .card{
+		background: #002855;
+		color: #fff;
+		box-shadow: 5px 5px 5px  #0353a4;
+	}
+	#anime-list .card img{
+		height: 250px;
+	}
+	#anime-list .card:hover{
+		background: #0353a4;
+		color: #fff;
+		box-shadow: 5px 5px 5px  #002855;
+	}
+/*anime movies section*/
+	#anime-movie{
+		background: #118ab2;
+	}
+	#anime-movie .container{
+		margin-left: 88px;
+		margin-right: 0px;
+	}
+	#anime-movie .genre{
+		width: 265px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 15px 15px 0px 0px;
+	}
+	#anime-movie .genre-section{
+		border-radius: 20px 20px 20px 20px;
+		border:  3px #002855 solid;
+		padding: 0px;
+		margin-top: -10px;
+		height: 620px;
+		width: 270px !important;
+		position: absolute;	
+	}
+	#anime-movie .genre-section a{
+		color: #fff;
+	}
+	#anime-movie .genre-section a:hover{
+		color: #fff;
+	}
+
+
+	#anime-movie h5{
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+	}
+	#anime-movie h5::after{
+		content: "";
+		border-top: 40px solid #002855;
+		border-right: 40px solid transparent;
+		position: absolute;
+		margin-left: 50px;
+	}
+	#anime-movie .card-footer{
+		text-align: center;
+		background: inherit;
+		color: inherit;
+		height: 120px;
+		overflow: hidden;
+	}
+	#anime-movie .card{
+		background: #002855;
+		color: #fff;
+		box-shadow: 5px 5px 5px  #0353a4;
+	}
+	#anime-movie .card img{
+		height: 250px;
+	}
+	#anime-movie .card:hover{
+		background: #0353a4;
+		color: #fff;
+		box-shadow: 5px 5px 5px  #002855;
+	}
+
+/*animes field*/
+	#animes .overlay{
+		min-width: 100%;
+		min-height: 100%;
+		background: #000;
+		position: fixed;
+		top: 0;
+		left: 0;
+		opacity: .1;
+	}
+	#animes .innerOverlay{
+		min-width: 90%;
+		min-height: 94%;
+		background: #0466c8;
+		position: absolute;
+		top: 85px;
+		left: 80px;
+		opacity: .3;
+		border: 3px #fff solid;
+		border-radius: 30px;
+	}
+	#animes .container {
+		margin-top: 10px;
+		left: 30px;
+		color: #fff;
+	}
+	#animes .container img{
+		height: 550px;
+		padding: 0px;
+		border-radius: 20px;
+		box-shadow: 4px 4px 4px #001233;
+
+	}
+	#animes .container .context{
+		border-left: 5px #002855 solid;
+		padding-left: 50px;
+	}
+	#animes a{
+		color: #fff;
+		font-size: .9em;
+	}
+	#animes .container 	h2,#animes .container 	h4{
+		display: block;
+		text-align: center;
+		margin-top: 70px;
+		background: #0466c8;
+		height: 50px;
+		line-height: 50px;
+		padding: 0;
+		border-radius: 30px;
+		opacity: .9;
+		box-shadow: 4px 4px 4px #001233;
+	}
+	#animes .card{
+		background: #0466c8;
+		border-radius: 15px;
+		margin-top: 30px;
+		box-shadow: 3px 3px 3px #001233;
+	}
+	#animes .card .card-img-top{
+		background: inherit;
+		height: 150px;
+		border-radius: 15px 15px 0px 0px;
+	}
+	#animes .card .card-footer{
+		background: inherit;
+		border-radius: 0px 0px 15px 15px;
+	}
+	#anime-list{
+		min-height: 600px;
+	}
+	#animes .akm{
+		/*position: absolute;*/
+		/*display: block;*/
+		position: relative;
+		top: 30px;
+		width: 100%;
+
+	}
+	#animes .edit{
+		width: 80%;
+	}
+/*anime movies section*/
+	#Movies{
+		background: #118ab2;
+	}
+	#Movies .container{
+		margin-left: 88px;
+		margin-right: 0px;
+	}
+	#Movies .genre{
+		width: 265px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 15px 15px 0px 0px;
+	}
+	#Movies .genre-section{
+		border-radius: 20px 20px 20px 20px;
+		border:  3px #002855 solid;
+		padding: 0px;
+		margin-top: -10px;
+		height: 620px;
+		width: 270px !important;
+		position: absolute;	
+	}
+	#Movies .genre-section a{
+		color: #fff;
+	}
+	#Movies .genre-section a:hover{
+		color: #fff;
+	}
+
+
+	#Movies h5{
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+	}
+	#Movies h5::after{
+		content: "";
+		border-top: 40px solid #002855;
+		border-right: 40px solid transparent;
+		position: absolute;
+		margin-left: 75px;
+	}
+	#Movies .card-footer{
+		text-align: center;
+		background: inherit;
+		color: inherit;
+		height: 120px;
+		overflow: hidden;
+	}
+	#Movies .card{
+		background: #002855;
+		color: #fff;
+		box-shadow: 5px 5px 5px  #0353a4;
+	}
+	#Movies .card img{
+		height: 250px;
+	}
+	#Movies .card:hover{
+		background: #0353a4;
+		color: #fff;
+		box-shadow: 5px 5px 5px  #002855;
+	}
+
+/*Songd section*/
+	#Songs{
+		background: #118ab2;
+	}
+	#Songs .container{
+		margin-left: 88px;
+		margin-right: 0px;
+	}
+	#Songs .genre{
+		width: 265px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 15px 15px 0px 0px;
+	}
+	#Songs .genre-section{
+		border-radius: 20px 20px 20px 20px;
+		border:  3px #002855 solid;
+		padding: 0px;
+		margin-top: -10px;
+		height: 620px;
+		width: 270px !important;
+		position: absolute;	
+	}
+	#Songs .genre-section a{
+		color: #fff;
+	}
+	#Songs .genre-section a:hover{
+		color: #fff;
+	}
+
+
+	#Songs h5{
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+	}
+	#Songs h5::after{
+		content: "";
+		border-top: 40px solid #002855;
+		border-right: 40px solid transparent;
+		position: absolute;
+		margin-left: 78px;
+	}
+	#Songs .card-footer{
+		text-align: center;
+		background: inherit;
+		color: inherit;
+		height: 120px;
+		overflow: hidden;
+	}
+	#Songs .card{
+		background: #002855;
+		color: #fff;
+		box-shadow: 5px 5px 5px  #0353a4;
+	}
+	#Songs .card img{
+		height: 250px;
+	}
+	#Songs .card:hover{
+		background: #0353a4;
+		color: #fff;
+		box-shadow: 5px 5px 5px  #002855;
+	}
